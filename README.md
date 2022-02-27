@@ -74,3 +74,23 @@ PrimeWave is a unified solution for all applications.
 - Inorder to obtain 0.6V RFB2 network needs to be OPEN which is obtained bt CTRL=0V.
 - Inorder to obtain 0.8V: RFB1+RFB2 = 0.8/10u = 80K ohm.
 - Vout/Vref = 1+(Rfb2/Rfb1). Therefore, Rfb1 = 20K ohm & Rfb2 = 60K ohm.
+
+**3. Error Amplifier design:**
+- The minimum gain required across PVT corner for the device to regulate is
+  
+  Vout/Vref = A/(1+AB)
+  
+  at Vref=0.6V, B=1, Vout=0.589V: A=54.54=34.735dB
+  
+  at Vref=0.6V, B=0.75, Vout=0.789V: A=95.6363=39.612dB
+- This is the minimum gain targetted while designing the error amplifier.
+- Inorder to improve the over all BW and gain of the error amplifier two stage differential amplifier is designed.
+- common source amplifier is implemented as second stage of tther error amplifier.
+- Bias current is set as 0.1uA
+</p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/ErrAMp_loopgain_tb.png" alt="reftop"> 
+	<h5 align="center">Figure 7: Leakage across Pass Element at FF result</h5>
+</p>
+
+
