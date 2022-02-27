@@ -6,14 +6,15 @@ The Hackathon provided an oppurtunity to implement proposed LDO design using Syn
 1. [Abstract](#abstract)
 2. [Working](#working)
 3. [Reference Circuit](#reference-circuit)
-4. [Implementation](#implementation)
-5. [Schematic Netlist](#schematic-netlist)
-6. [Simulation result](#simulation-result)
-7. [Challenge](#challenge)
-8. [Limitations](#limitations)
-9. [References](#references)
-10. [Acknowledgements](#acknowledgements)
-11. [Author](#author)
+4. [Tools Used](#tools-used)
+5. [Implementation](#implementation)
+6. [Schematic Netlist](#schematic-netlist)
+7. [Simulation result](#simulation-result)
+8. [Challenge](#challenge)
+9. [Limitations](#limitations)
+10. [References](#references)
+11. [Acknowledgements](#acknowledgements)
+12. [Author](#author)
 
 ## Abstract
 Low Drop-out regulator (LDO) is a linear voltage regulator designed to provide stable DC voltage. To satisfy evolving on chip power delivery requirements, a CMOS LDO capable of providing two adjustable voltage levels by using a binary-input control signal is implemented. It supplies a 0.6V default output voltage from a 1.0V battery input and a maximum load of 20mA.
@@ -30,3 +31,28 @@ In order to achieve high gain a second stage common source amplifier is used. In
 </p>
 
 ## Reference Circuit
+<p align="center">
+	<img width="600" Height="350" src="LDO/refckt.png" alt="reftop"> 
+	<h5 align="center">Figure 2: Proposed reference schematic</h5>
+</p>
+
+## Tools Used
+- Synopsys Custom Compiler: Custom Compiler provides a highly productive environment for design entry
+and simulation, with strong features for mixed-signal design, debug, simulation
+management, analysis, and reporting. 
+- Synopsys Primewave: The PrimeWave Design Environment is a comprehensive environment for all Synopsys simulation engines and analysis capabilities.It provides an easy-to-use simulation setup cockpit, support for grid-based job distribution and monitoring of simulation jobs, and a powerful graphical waveform viewer. Whether designing analog, mixed-signal, or RF designs on mature or advanced nodes,
+PrimeWave is a unified solution for all applications. 
+- Synopsys 28nm PDK: LDO is designed using Synopsys 28nm PDK.
+
+## Implementation
+
+**1. Sizing the Pass Element:**
+- The pass element is designed to carry the full load of 20mA at all PVT corners.
+- The device is designed to operate in saturation region.
+- PMOS is used as pass element. The pass element is sized for  Max load current, Minimum VDD, Minimum tolerable Vg and SS corner at-40 Deg C.
+- Inorder to ensure that Pass element isnt over sized, It is ensured to have leakage current less than the maximun current allowed across resistor divider circuit. Pass element is tested at FF corner at  85Deg C.
+- PMOS Element is designed to operate at -40 to 85 deg C.
+  <p align="center">
+	<img width="600" Height="350" src="LDO/refckt.png" alt="reftop"> 
+	<h5 align="center">Figure 2: Proposed reference schematic</h5>
+</p>
