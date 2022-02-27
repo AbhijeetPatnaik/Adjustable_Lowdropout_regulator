@@ -9,7 +9,7 @@ The Hackathon provided an oppurtunity to implement proposed LDO design using Syn
 4. [Tools Used](#tools-used)
 5. [Implementation](#implementation)
 6. [LDO Schematic](#ldo-schematic)
-7. [Simulation result](#simulation-result)
+7. [Simulation results](#simulation-results)
 8. [Challenge](#challenge)
 9. [Limitations](#limitations)
 10. [References](#references)
@@ -113,27 +113,71 @@ PrimeWave is a unified solution for all applications.
 ** Test Condition: VDD=1V, Load= 20mA, CLoad=100pF, CTRL=0
 </p>
   <p align="center">
-	<img width="600" Height="400" src="LDO/L20TT25.png" alt="reftop"> 
-	<h5 align="center">Figure 10:Loop gain result at TT corner and 25 Degc </h5>
-</p></p>
+	<img width="500" Height="300" src="LDO/L20TT25.png" alt="reftop"> 
+	<h5 align="center">Figure 10: Loop gain result at TT corner and 25 Degc </h5>
+</p>
+</p>
   <p align="center">
-	<img width="600" Height="400" src="LDO/L20SS40.png" alt="reftop"> 
-	<h5 align="center">Figure 11:Loop gain result at SS corner and -40 Degc</h5>
-</p></p>
+	<img width="500" Height="300" src="LDO/L20SS40.png" alt="reftop"> 
+	<h5 align="center">Figure 11: Loop gain result at SS corner and -40 Degc</h5>
+</p>
+</p>
   <p align="center">
-	<img width="600" Height="400" src="LDO/L20FF125.png" alt="reftop"> 
-	<h5 align="center">Figure 12:Loop gain result at FF corner and 125Degc</h5>
-</p></p>
+	<img width="500" Height="300" src="LDO/L20FF125.png" alt="reftop"> 
+	<h5 align="center">Figure 12: Loop gain result at FF corner and 125 Degc</h5>
+</p>
+</p>
 ** Test Condition: VDD=1V, Load= 20uA, CLoad=100pF, CTRL=0
 </p>
   <p align="center">
-	<img width="600" Height="400" src="LDO/L00TT25.png" alt="reftop"> 
-	<h5 align="center">Figure 10:Loop gain result at TT corner and 25 Degc </h5>
-</p></p>
+	<img width="500" Height="300" src="LDO/L00TT25.png" alt="reftop"> 
+	<h5 align="center">Figure 10: Loop gain result at TT corner and 25 Degc </h5>
+</p>
+</p>
   <p align="center">
-	<img width="600" Height="400" src="LDO/L00SS40.png" alt="reftop"> 
-	<h5 align="center">Figure 11:Loop gain result at SS corner and -40 Degc</h5>
-</p></p>
+	<img width="500" Height="300" src="LDO/L00SS40.png" alt="reftop"> 
+	<h5 align="center">Figure 11: oop gain result at SS corner and -40 Degc</h5>
+</p
+></p>
   <p align="center">
-	<img width="600" Height="400" src="LDO/L00FF125.png" alt="reftop"> 
-	<h5 align="center">Figure 12:Loop gain result at FF corner and 125Degc</h5>
+	<img width="500" Height="300" src="LDO/L00FF125.png" alt="reftop"> 
+	<h5 align="center">Figure 12: Loop gain result at FF corner and 125 Degc</h5>
+	
+**1.Transient Analysis:**
+
+** Start-up Test Condition: VDD= 0V to 1V, Load= 20mA, CLoad=100pF, CTRL=0V to 1V
+</p>
+  <p align="center">
+	<img width="500" Height="300" src="LDO/STARTUP.png" alt="reftop"> 
+	<h5 align="center">Figure 13: Startup and Adjustable voltage result</h5>
+</p>
+** Line regulation Test Condition: VDD= 0.6V to 1V, Load= 20mA, CLoad=100pF
+</p>
+  <p align="center">
+	<img width="500" Height="300" src="LDO/Line_REG.png" alt="reftop"> 
+	<h5 align="center">Figure 14: Line regulation result</h5>
+</p>
+** Load regulation Test Condition: VDD= 1V, Load=1m to 20mA, CLoad=100pF
+</p>
+  <p align="center">
+	<img width="500" Height="300" src="LDO/LOAD_REG.png" alt="reftop"> 
+	<h5 align="center">Figure 15: Load regulation result</h5>
+</p>
+** VOUT VS VDD Test Condition: VDD= 0.7V to 1V, Load=2mA to 20mA, CLoad=100pF
+</p>
+  <p align="center">
+	<img width="500" Height="300" src="LDO/LVDDvsVout.png" alt="reftop"> 
+	<h5 align="center">Figure 16: VDD vs Vout result</h5>
+</p>
+** Line Transient: VDD= 0.7V to 1V to 0.7V, Load=20mA, CLoad=100pF
+</p>
+  <p align="center">
+	<img width="500" Height="300" src="Line Transient.png" alt="reftop"> 
+	<h5 align="center">Figure 17: VDD vs Vout result</h5>
+</p>
+**Load Transient Test Condition: VDD= 1V, Load=10mA to 20mA, CLoad=100pF
+</p>
+  <p align="center">
+	<img width="500" Height="300" src="LDO/LoadTRANS.png" alt="reftop"> 
+	<h5 align="center">Figure 18: VDD vs Vout result</h5>
+</p>
