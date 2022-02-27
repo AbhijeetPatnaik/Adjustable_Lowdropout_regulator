@@ -50,7 +50,7 @@ PrimeWave is a unified solution for all applications.
 - The pass element is designed to carry the full load of 20mA at all PVT corners.
 - The device is designed to operate in saturation region.
 - PMOS is used as pass element. The pass element is sized for  Max load current, Minimum VDD, Minimum tolerable Vg and SS corner at-40 Deg C.
-- Inorder to ensure that Pass element isnt over sized, It is ensured to have leakage current less than the maximun current allowed across resistor divider circuit. Pass element is tested at FF corner at  85Deg C.
+- Inorder to ensure that Pass element isnt over sized, It is ensured to have leakage current less than the maximun current allowed across resistor divider circuit. Pass element is tested at FF corner at 85 Deg C.
 - PMOS Element is designed to operate at -40 to 85 deg C.
   <p align="center">
 	<img width="500" Height="300" src="LDO/passele_SS.png" alt="reftop"> 
@@ -68,3 +68,9 @@ PrimeWave is a unified solution for all applications.
 	<img width="500" Height="300" src="LDO/passele_FF_res.png" alt="reftop"> 
 	<h5 align="center">Figure 6: Leakage across Pass Element at FF result</h5>
 </p>
+
+**2. Sizing the feedback network:**
+- Current across resistor feedback network is taken as 10uA and Vref is taken as 0.6V.
+- Inorder to obtain 0.6V RFB2 network needs to be OPEN which is obtained bt CTRL=0V.
+- Inorder to obtain 0.8V: RFB1+RFB2 = 0.8/10u = 80K ohm.
+- Vout/Vref = 1+(Rfb2/Rfb1). Therefore, Rfb1 = 20K ohm & Rfb2 = 60K ohm.
