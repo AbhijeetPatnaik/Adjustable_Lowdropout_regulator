@@ -10,11 +10,9 @@ The Hackathon provided an oppurtunity to implement proposed LDO design using Syn
 5. [Implementation](#implementation)
 6. [LDO Schematic](#ldo-schematic)
 7. [Simulation results](#simulation-results)
-8. [Challenge](#challenge)
-9. [Limitations](#limitations)
-10. [References](#references)
-11. [Acknowledgements](#acknowledgements)
-12. [Author](#author)
+8. [Author](#author)
+9. [Anowledgements](#acknowledgements)
+10.[References](#references)
 
 ## Abstract
 Low Drop-out regulator (LDO) is a linear voltage regulator designed to provide stable DC voltage. To satisfy evolving on chip power delivery requirements, a CMOS LDO capable of providing two adjustable voltage levels by using a binary-input control signal is implemented. It supplies a 0.6V default output voltage from a 1.0V battery input and a maximum load of 20mA.
@@ -187,3 +185,26 @@ PrimeWave is a unified solution for all applications.
 	<img width="500" Height="300" src="LDO/LoadTRANS.png" alt="reftop"> 
 	<h5 align="center">Figure 18: Load Transient result</h5>
 </p>
+
+
+
+## Author
+
+- Abhijeet Patnaik, Sankalp ssemiconductor, Hubli.
+
+
+## Acknowledgements
+
+ - [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+ - [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/')
+ - [Synopsys India](https://www.synopsys.com/)
+ - [Sameer Durgoji, NIT Karnataka](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+ - [Chinmay panda, IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+
+
+
+## References
+- [1] Anjali V. Nimkar, Shirish V. Pattalwar, and Preeti R. Lawhale, “Design of a Programmable Low Drop-Out Regulator using CMOS Technology” International Journal of Innovative Research in Computer and Communication Engineering, Vol. 3, Issue 2, SSN(Online): 2320-9801, February 2015.
+- [2] I. Vaisband, Burt Price, Selc¸uk Ko¨se, Yesh Kolla, Jeff Fischer and Eby G. Friedman, “Distributed LDO regulators in a 28 nm power delivery system,” Article  in  Analog Integrated Circuits and Signal Processing • June 2015, 83:295–309
+- [3] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/custom-compiler-ds.pdf 
+- [4] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/primewave-ds.pdf
