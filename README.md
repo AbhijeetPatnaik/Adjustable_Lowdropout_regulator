@@ -57,7 +57,7 @@ PrimeWave is a unified solution for all applications.
 	<h5 align="center">Figure 3: ID across Pass Element at SS Testbench</h5>
 </p>
   <p align="center">
-	<img width="400" Height="250" src="LDO/passele_SS_res.png" alt="reftop"> 
+	<img width="500" Height="300" src="LDO/passele_SS_res.png" alt="reftop"> 
 	<h5 align="center">Figure 4:ID across Pass Element at SS result</h5>
 </p>
   <p align="center">
@@ -65,6 +65,6 @@ PrimeWave is a unified solution for all applications.
 	<h5 align="center">Figure 5: Leakage across Pass Element at FF Testbench</h5>
 </p>
   <p align="center">
-	<img width="400" Height="250" src="LDO/passele_FF_res.png" alt="reftop"> 
+	<img width="500" Height="300" src="LDO/passele_FF_res.png" alt="reftop"> 
 	<h5 align="center">Figure 6: Leakage across Pass Element at FF result</h5>
 </p>
