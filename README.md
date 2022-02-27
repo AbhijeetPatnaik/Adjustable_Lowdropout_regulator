@@ -12,7 +12,7 @@ The Hackathon provided an oppurtunity to implement proposed LDO design using Syn
 7. [Simulation results](#simulation-results)
 8. [Author](#author)
 9. [Anowledgements](#acknowledgements)
-10.[References](#references)
+10. [References](#references)
 
 ## Abstract
 Low Drop-out regulator (LDO) is a linear voltage regulator designed to provide stable DC voltage. To satisfy evolving on chip power delivery requirements, a CMOS LDO capable of providing two adjustable voltage levels by using a binary-input control signal is implemented. It supplies a 0.6V default output voltage from a 1.0V battery input and a maximum load of 20mA.
