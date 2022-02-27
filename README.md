@@ -23,3 +23,10 @@ Linear regulators convert one voltage level to a lower voltage level by dissipat
 A high gain OPAMP is used as error amplifier, with a stable voltage reference at one input and feedback voltage is connected to the other input of the differential amplifier. A current mirror is used to bias the error amplifier with current IREF.
 In order to achieve high gain a second stage common source amplifier is used. In order to keep the LDO stable miller compensation is used. Miller compensation is used to split the poles and bring the second pole below UGB and achieve better stability.
  NMOS acts as a strong pull down device, yielding rail-to-rail swing. Operational amplifiers with rail-to-rail output stage achieve the maximum output signal swing in systems with low single-supply voltages. They are capable of generating an output signal up to the supply rails.
+ 
+<p align="center">
+	<img width="600" Height="350" src="LDO/reftop.png" alt="reftop"> 
+	<h5 align="center">Figure 1: Top level schematic</h5>
+</p>
+
+## Reference Circuit
