@@ -110,7 +110,8 @@ PrimeWave is a unified solution for all applications.
 
 ## Simulation results
 **1.AC Analysis:**
-** Test Condition: VDD=1V, Load= 20mA, CLoad=100pF, CTRL=0
+
+**Test Condition: VDD=1V, Load= 20mA, CLoad=100pF, CTRL=0 **
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/L20TT25.png" alt="reftop"> 
@@ -127,7 +128,7 @@ PrimeWave is a unified solution for all applications.
 	<h5 align="center">Figure 12: Loop gain result at FF corner and 125 Degc</h5>
 </p>
 </p>
-** Test Condition: VDD=1V, Load= 20uA, CLoad=100pF, CTRL=0
+**Test Condition: VDD=1V, Load= 20uA, CLoad=100pF, CTRL=0**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/L00TT25.png" alt="reftop"> 
@@ -145,37 +146,37 @@ PrimeWave is a unified solution for all applications.
 	
 **1.Transient Analysis:**
 
-** Start-up Test Condition: VDD= 0V to 1V, Load= 20mA, CLoad=100pF, CTRL=0V to 1V
+**Start-up Test Condition: VDD= 0V to 1V, Load= 20mA, CLoad=100pF, CTRL=0V to 1V**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/STARTUP.png" alt="reftop"> 
 	<h5 align="center">Figure 13: Startup and Adjustable voltage result</h5>
 </p>
-** Line regulation Test Condition: VDD= 0.6V to 1V, Load= 20mA, CLoad=100pF
+**Line regulation Test Condition: VDD= 0.6V to 1V, Load= 20mA, CLoad=100pF**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/Line_REG.png" alt="reftop"> 
 	<h5 align="center">Figure 14: Line regulation result</h5>
 </p>
-** Load regulation Test Condition: VDD= 1V, Load=1m to 20mA, CLoad=100pF
+**Load regulation Test Condition: VDD= 1V, Load=1m to 20mA, CLoad=100pF**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/LOAD_REG.png" alt="reftop"> 
 	<h5 align="center">Figure 15: Load regulation result</h5>
 </p>
-** VOUT VS VDD Test Condition: VDD= 0.7V to 1V, Load=2mA to 20mA, CLoad=100pF
+**VOUT VS VDD Test Condition: VDD= 0.7V to 1V, Load=2mA to 20mA, CLoad=100pF**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/LVDDvsVout.png" alt="reftop"> 
 	<h5 align="center">Figure 16: VDD vs Vout result</h5>
 </p>
-** Line Transient: VDD= 0.7V to 1V to 0.7V, Load=20mA, CLoad=100pF
+**Line Transient: VDD= 0.7V to 1V to 0.7V, Load=20mA, CLoad=100pF**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="Line Transient.png" alt="reftop"> 
 	<h5 align="center">Figure 17: VDD vs Vout result</h5>
 </p>
-**Load Transient Test Condition: VDD= 1V, Load=10mA to 20mA, CLoad=100pF
+**Load Transient Test Condition: VDD= 1V, Load=10mA to 20mA, CLoad=100pF**
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/LoadTRANS.png" alt="reftop"> 
