@@ -109,3 +109,31 @@ PrimeWave is a unified solution for all applications.
 </p>
 
 ## Simulation results
+**1.AC Analysis:**
+** Test Condition: VDD=1V, Load= 20mA, CLoad=100pF, CTRL=0
+</p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/L20TT25.png" alt="reftop"> 
+	<h5 align="center">Figure 10:Loop gain result at TT corner and 25 Degc </h5>
+</p></p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/L20SS40.png" alt="reftop"> 
+	<h5 align="center">Figure 11:Loop gain result at SS corner and -40 Degc</h5>
+</p></p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/L20FF125.png" alt="reftop"> 
+	<h5 align="center">Figure 12:Loop gain result at FF corner and 125Degc</h5>
+</p></p>
+** Test Condition: VDD=1V, Load= 20uA, CLoad=100pF, CTRL=0
+</p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/L00TT25.png" alt="reftop"> 
+	<h5 align="center">Figure 10:Loop gain result at TT corner and 25 Degc </h5>
+</p></p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/L00SS40.png" alt="reftop"> 
+	<h5 align="center">Figure 11:Loop gain result at SS corner and -40 Degc</h5>
+</p></p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/L00FF125.png" alt="reftop"> 
+	<h5 align="center">Figure 12:Loop gain result at FF corner and 125Degc</h5>
