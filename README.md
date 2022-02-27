@@ -8,7 +8,7 @@ The Hackathon provided an oppurtunity to implement proposed LDO design using Syn
 3. [Reference Circuit](#reference-circuit)
 4. [Tools Used](#tools-used)
 5. [Implementation](#implementation)
-6. [Schematic Netlist](#schematic-netlist)
+6. [LDO Schematic](#ldo-schematic)
 7. [Simulation result](#simulation-result)
 8. [Challenge](#challenge)
 9. [Limitations](#limitations)
@@ -90,7 +90,20 @@ PrimeWave is a unified solution for all applications.
 </p>
   <p align="center">
 	<img width="600" Height="400" src="LDO/ErrAMp_loopgain_tb.png" alt="reftop"> 
-	<h5 align="center">Figure 7: Leakage across Pass Element at FF result</h5>
+	<h5 align="center">Figure 7: Error amplifier design</h5>
 </p>
 
+## LDO Schematic
+- All the blocks are connected together to complete the LDO design. Inorder to improve the phase margin of the device a miller cap of 30pF is added to split the poles.
+- Below is the scematic and test bench set up.
 
+</p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/LDO SCHEMATIC.png" alt="reftop"> 
+	<h5 align="center">Figure 8: LDO Schematic</h5>
+</p>
+</p>
+  <p align="center">
+	<img width="600" Height="400" src="LDO/LDO TESTBench.png" alt="reftop"> 
+	<h5 align="center">Figure 9:LDO Testbench</h5>
+</p>
