@@ -136,7 +136,7 @@ PrimeWave is a unified solution for all applications.
 </p>
   <p align="center">
 	<img width="500" Height="300" src="LDO/L00SS40.png" alt="reftop"> 
-	<h5 align="center">Figure 11: oop gain result at SS corner and -40 Degc</h5>
+	<h5 align="center">Figure 11: Loop gain result at SS corner and -40 Degc</h5>
 </p
 ></p>
   <p align="center">
