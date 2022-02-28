@@ -200,7 +200,7 @@ PrimeWave is a unified solution for all applications.
  - [Synopsys India](https://www.synopsys.com/)
  - [Sameer Durgoji, NIT Karnataka](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
  - [Chinmay panda, IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
- - [Akshay Panchamukhi,Sankalp Semiconductor Pvt LTD]
+ - Akshay Panchamukhi,Sankalp Semiconductor Pvt LTD
 
 ## References
 - [1] Anjali V. Nimkar, Shirish V. Pattalwar, and Preeti R. Lawhale, “Design of a Programmable Low Drop-Out Regulator using CMOS Technology” International Journal of Innovative Research in Computer and Communication Engineering, Vol. 3, Issue 2, SSN(Online): 2320-9801, February 2015.
