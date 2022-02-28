@@ -204,7 +204,10 @@ PrimeWave is a unified solution for all applications.
  - Akshay Panchamukhi,Sankalp Semiconductor Pvt LTD
 
 ## References
-- [1] Anjali V. Nimkar, Shirish V. Pattalwar, and Preeti R. Lawhale, “Design of a Programmable Low Drop-Out Regulator using CMOS Technology” International Journal of Innovative Research in Computer and Communication Engineering, Vol. 3, Issue 2, SSN(Online): 2320-9801, February 2015.
-- [2] I. Vaisband, Burt Price, Selc¸uk Ko¨se, Yesh Kolla, Jeff Fischer and Eby G. Friedman, “Distributed LDO regulators in a 28 nm power delivery system,” Article  in  Analog Integrated Circuits and Signal Processing • June 2015, 83:295–309
-- [3] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/custom-compiler-ds.pdf 
-- [4] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/primewave-ds.pdf
+[1] Anjali V. Nimkar, Shirish V. Pattalwar, and Preeti R. Lawhale, “Design of a Programmable Low Drop-Out Regulator using CMOS Technology” International Journal of Innovative Research in Computer and Communication Engineering, Vol. 3, Issue 2, SSN(Online): 2320-9801, February 2015.
+
+[2] I. Vaisband, Burt Price, Selc¸uk Ko¨se, Yesh Kolla, Jeff Fischer and Eby G. Friedman, “Distributed LDO regulators in a 28 nm power delivery system,” Article  in  Analog Integrated Circuits and Signal Processing • June 2015, 83:295–309
+
+[3] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/custom-compiler-ds.pdf 
+
+[4] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/primewave-ds.pdf
