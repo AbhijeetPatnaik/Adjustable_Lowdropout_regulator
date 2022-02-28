@@ -210,4 +210,4 @@ PrimeWave is a unified solution for all applications.
 
 [3] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/custom-compiler-ds.pdf 
 
-[4] https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/primewave-ds.pdf
+[4]https://www.synopsys.com/content/dam/synopsys/implementation&signoff/datasheets/primewave-ds.pdf
