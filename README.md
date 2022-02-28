@@ -158,6 +158,7 @@ PrimeWave is a unified solution for all applications.
 	<img width="500" Height="300" src="LDO/Line_REG.png" alt="reftop"> 
 	<h5 align="center">Figure 14: Line regulation result</h5>
 </p>
+
 **Load regulation Test Condition: VDD= 1V, Load=1m to 20mA, CLoad=100pF**
 </p>
   <p align="center">
